@@ -31,5 +31,5 @@ jobs:
     - run: npm install
     - run: npm run build
     - run: node ./lib/scripts/cli.js fetch --ci
-    #- name: Keepalive Workflow
-    #  uses: gautamkrishnar/keepalive-workflow@1.0.4
+    - name: Keepalive Workflow
+      uses: gautamkrishnar/keepalive-workflow@master
